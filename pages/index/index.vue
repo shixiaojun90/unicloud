@@ -113,7 +113,7 @@
 				<button class="cu-btn cuIcon-add bg-green shadow"></button>
 				发布
 			</view>
-			<view class="action text-gray">
+			<view class="action text-gray" @tap="toChild" :data-url="'/pages/users/index'">
 				<view class="cuIcon-my">
 					<view class="cu-tag badge"></view>
 				</view>

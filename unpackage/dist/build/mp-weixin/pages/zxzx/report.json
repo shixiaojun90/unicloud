@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "bjx-form": "/components/bjx-form/bjx-form",
+    "bjx-form-item": "/components/bjx-form/bjx-form-item"
+  }
+}

@@ -48,6 +48,17 @@
 			"style": {}
 		},
 		{
+			"path": "pages/zxzx/report",
+			"style": {}
+		},
+		
+		
+		{
+			"path": "pages/users/index",
+			"style": {}
+		},
+		
+		{
 			"path": "pages/basics/layout",
 			"style": {}
 		},

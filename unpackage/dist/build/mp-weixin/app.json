@@ -11,6 +11,8 @@
     "pages/xqzx/archives",
     "pages/zxzx/list",
     "pages/zxzx/show",
+    "pages/zxzx/report",
+    "pages/users/index",
     "pages/basics/layout",
     "pages/basics/background",
     "pages/basics/text",
