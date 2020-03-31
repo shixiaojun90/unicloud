@@ -5,16 +5,17 @@
 			<block slot="content">举报</block>
 		</cu-custom>
 		
-		<form>
+		<form @submit="formSubmit">
 			<view class="cu-form-group margin-top">
-				<textarea maxlength="-1" :disabled="modalName!=null" @input="textareaAInput" placeholder="请输入举报原因"></textarea>
+				<textarea name="info" placeholder="请输入举报原因"></textarea>
+			</view>
+			
+			<view class="box">
+				<view class="cu-bar btn-group">
+					<button form-type="submit" class="cu-btn bg-blue shadow-blur round">提交</button>
+				</view>
 			</view>
 		</form>
-		<view class="box">
-			<view class="cu-bar btn-group">
-				<button class="cu-btn bg-blue shadow-blur round">提交</button>
-			</view>
-		</view>
 	</view>
 </template>
 
@@ -22,6 +23,10 @@
 	export default {
 		data() {
 			return {
+				content: {
+					info: ''
+				},
+				
 				ColorList: this.ColorList,
 				modalName: null
 			};
@@ -30,6 +35,33 @@
 		methods:{
 			textareaAInput(e) {
 				this.textareaAValue = e.detail.value
+			},
+			
+			formSubmit: function(e) {
+				//console.log('form发生了submit事件，携带数据为：' + JSON.stringify(e.detail.value))
+				var formdata = e.detail.value
+				if(!formdata.info){
+					uni.showModal({
+						content: '请填写内容',
+						showCancel: false
+					});
+					return;
+				}
+				//开始发送数据
+				uni.request({
+				    url: 'https://www.example.com/request', //仅为示例，并非真实接口地址。
+				    data: {
+				        text: formdata.info
+				    },
+				    header: {
+				        //'custom-header': 'hello'
+						'content-type': 'application/json'
+				    },
+				    success: (res) => {
+				        console.log(res.data);
+				        this.text = 'request success';
+				    }
+				});
 			},
 			
 		}
