@@ -37,12 +37,6 @@
 			<view class="cu-form-group margin-top">
 				<view class="title">帮助</view>
 			</view>
-			
-			<!-- <button class="btn" @click="share">分享</button> -->
-			<view class="cu-form-group margin-top" @tap="toChild" :data-url="'/pages/component/fenxiang'">
-				分享
-			</view>
-			
 		</form>
 		<!-- 底部结束 -->
 	</view>

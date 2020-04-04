@@ -117,7 +117,7 @@
 			<view class="action text-green">
 				<view class="cuIcon-homefill"></view> 首页
 			</view>
-			<view class="action text-gray add-action">
+			<view class="action text-gray add-action" @tap="toChild" :data-url="'/pages/xqzx/release'">
 				<button class="cu-btn cuIcon-add bg-green shadow"></button>
 				发布
 			</view>
@@ -159,19 +159,19 @@
 					url: 'https://ossweb-img.qq.com/images/lol/web201310/skin/big25011.jpg'
 				}],
 				cuIconList: [{
-					cuIcon: 'cardboardfill',
+					cuIcon: 'service',
 					color: 'red',
 					badge: 120,
 					name: '服务市场',
 					url: '/pages/fwsc/list'
 				}, {
-					cuIcon: 'recordfill',
+					cuIcon: 'form',
 					color: 'orange',
 					badge: 1,
 					name: '需求中心',
 					url: '/pages/xqzx/list'
 				}, {
-					cuIcon: 'picfill',
+					cuIcon: 'list',
 					color: 'yellow',
 					badge: 0,
 					name: '资讯中心',

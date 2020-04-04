@@ -38,6 +38,14 @@
 			"path": "pages/xqzx/archives",
 			"style": {}
 		},
+		{
+			"path": "pages/xqzx/release",
+			"style": {}
+		},
+		{
+			"path": "pages/xqzx/submit",
+			"style": {}
+		},
 		
 		{
 			"path": "pages/zxzx/list",
