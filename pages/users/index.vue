@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-pink" :isBack="true">
+		<cu-custom bgColor="bg-grey" :isBack="true">
 			<block slot="backText">返回</block>
 			<block slot="content">个人资料</block>
 		</cu-custom>
@@ -37,9 +37,12 @@
 			<view class="cu-form-group margin-top">
 				<view class="title">帮助</view>
 			</view>
-			<view class="cu-form-group margin-top">
-				<view class="title">v1.0.0</view>
+			
+			<!-- <button class="btn" @click="share">分享</button> -->
+			<view class="cu-form-group margin-top" @tap="toChild" :data-url="'/pages/component/fenxiang'">
+				分享
 			</view>
+			
 		</form>
 		<!-- 底部结束 -->
 	</view>

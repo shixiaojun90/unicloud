@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-pink" :isBack="true">
+		<cu-custom bgColor="bg-grey" :isBack="true">
 			<block slot="backText">返回</block>
 			<block slot="content">资讯中心</block>
 		</cu-custom>
@@ -184,30 +184,7 @@
 			<view class="gray-text">加载中...</view>
 		</view>
 		<!-- 点击加载结束 -->
-		<!-- <view class="cu-load bg-red erro"></view> -->
-		<view class="cu-bar bg-white solid-bottom">
-			<view class="action">
-				<text class="cuIcon-title text-orange"></text>
-			</view>
-		</view>
 		
-		<!-- 底部开始 -->
-		<view class="cu-bar tabbar bg-white">
-			<view class="action text-green">
-				<view class="cuIcon-homefill"></view> 首页
-			</view>
-			<view class="action text-gray add-action">
-				<button class="cu-btn cuIcon-add bg-green shadow"></button>
-				发布
-			</view>
-			<view class="action text-gray">
-				<view class="cuIcon-my">
-					<view class="cu-tag badge"></view>
-				</view>
-				我的
-			</view>
-		</view>
-		<!-- 底部结束 -->
 	</view>
 </template>
 

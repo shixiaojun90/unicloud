@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<cu-custom bgColor="bg-gradual-pink" :isBack="false">
+		<cu-custom bgColor="bg-grey" :isBack="false">
 			<!-- <block slot="backText">返回</block> -->
 			<block slot="content">淘企企</block>
 		</cu-custom>
@@ -35,6 +35,14 @@
 		<!-- </navigator> -->
 		<!--  tab块结束 -->
 		
+		<view>
+			<drag-button
+				:isDock="true"
+				:existTabBar="true"
+				@btnClick="btnClick"
+				@btnTouchstart="btnTouchstart"
+				@btnTouchend="btnTouchend" />
+		</view>
 		<!-- 消息列表开始 -->
 		
 		<view class="cu-card article"> <!-- no-card -->
@@ -175,9 +183,6 @@
 				//loadProgress: 0
 			};
 		},
-		onLoad() {
-			
-		},
 		methods: {
 			LoadModal(e) {
 				this.loadModal = true;
@@ -194,6 +199,7 @@
 		}
 	}
 </script>
+
 
 <style>
 	.tower-swiper .tower-item {

@@ -13,31 +13,7 @@
     "pages/zxzx/show",
     "pages/zxzx/report",
     "pages/users/index",
-    "pages/basics/layout",
-    "pages/basics/background",
-    "pages/basics/text",
-    "pages/basics/icon",
-    "pages/basics/button",
-    "pages/basics/design",
-    "pages/basics/tag",
-    "pages/basics/avatar",
-    "pages/basics/progress",
-    "pages/basics/shadow",
-    "pages/basics/loading",
-    "pages/component/bar",
-    "pages/component/nav",
-    "pages/component/list",
-    "pages/component/card",
-    "pages/component/form",
-    "pages/component/timeline",
-    "pages/component/chat",
-    "pages/component/swiper",
-    "pages/component/modal",
-    "pages/component/steps",
-    "pages/plugin/indexes",
-    "pages/plugin/animation",
-    "pages/plugin/drawer",
-    "pages/plugin/verticalnav"
+    "pages/component/fenxiang"
   ],
   "subPackages": [],
   "window": {
@@ -47,10 +23,9 @@
     "navigationBarTextStyle": "white"
   },
   "usingComponents": {
-    "basics": "/pages/basics/home",
-    "components": "/pages/component/home",
-    "plugin": "/pages/plugin/home",
-    "cu-custom": "/colorui/components/cu-custom"
+    "cu-custom": "/colorui/components/cu-custom",
+    "drag-button": "/colorui/components/drag-button",
+    "fen-xiang": "/colorui/components/fen-xiang"
   },
   "sitemapLocation": "sitemap.json"
 }
