@@ -15,6 +15,7 @@
     "pages/zxzx/show",
     "pages/zxzx/report",
     "pages/users/index",
+    "pages/users/rztqq",
     "pages/component/fenxiang"
   ],
   "subPackages": [],
@@ -27,7 +28,8 @@
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom",
     "drag-button": "/colorui/components/drag-button",
-    "fen-xiang": "/colorui/components/fen-xiang"
+    "fen-xiang": "/colorui/components/fen-xiang",
+    "myeditor": "/colorui/editor/editor"
   },
   "sitemapLocation": "sitemap.json"
 }

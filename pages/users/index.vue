@@ -30,7 +30,7 @@
 			<view class="cu-form-group margin-top">
 				<view class="title">关注需求</view>
 			</view>
-			<view class="cu-form-group margin-top">
+			<view class="cu-form-group margin-top" @tap="toChild" :data-url="'/pages/users/rztqq'">
 				<view class="title">入驻淘企企</view>
 				<input disabled value="成为服务商"></input>
 			</view>

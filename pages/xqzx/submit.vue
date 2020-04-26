@@ -27,9 +27,16 @@
 				</picker>
 			</view>
 			
-			<view class="cu-form-group margin-top">
-				<textarea name="info" placeholder="描述"></textarea>
+			<view class="margin-top">
+				<myeditor class="editor" 
+				    @cancel="hideEditor" 
+				    @save="saveEditor" 
+				    :html="html"
+				    :imageUploader="uploadImg"
+				    :muiltImage="true">
+				</myeditor>
 			</view>
+			
 			<view class="box">
 				<view class="cu-bar btn-group">
 					<button form-type="submit" class="cu-btn bg-blue shadow-blur round">提交</button>
@@ -65,6 +72,11 @@
 			
 			textareaAInput(e) {
 				this.textareaAValue = e.detail.value
+			},
+			
+			uploadImg: function(img, callback) {
+				//上传图片逻辑,将图片链接传给回调函数
+				callback(img)
 			},
 			
 			formSubmit: function(e) {

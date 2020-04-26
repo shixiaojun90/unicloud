@@ -21,6 +21,9 @@ Vue.component('drag-button',dragButton)
 import fenXiang from './colorui/components/fen-xiang.vue'
 Vue.component('fen-xiang',fenXiang)
 
+import eDitor from './colorui/editor/editor.vue'
+Vue.component('myeditor',eDitor)
+
 Vue.config.productionTip = false
 
 App.mpType = 'app'
