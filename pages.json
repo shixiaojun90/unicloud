@@ -3,7 +3,9 @@
 		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
 			"path": "pages/index/index",
-			"style": {}
+			"style": {
+				"enablePullDownRefresh":true//开启下拉刷新
+			}
 		},
 		{
 			"path": "pages/fwsc/list",
@@ -74,9 +76,31 @@
 			// 	}
 			// }
 		},
-		
 		{
-			"path": "pages/component/fenxiang",
+			"path": "pages/users/zzzr",
+			"style": {}
+		},
+		{
+			"path": "pages/users/glxq",
+			"style": {}
+		},
+		{
+			"path": "pages/users/ddyx",
+			"style": {}
+		},
+		{
+			"path": "pages/users/scfw",
+			"style": {}
+		},
+		{
+			"path": "pages/users/gzxq",
+			"style": {}
+		},
+		
+		
+		//商户端路径配置
+		{
+			"path": "merchant/index/index",
 			"style": {}
 		}
 		
@@ -97,10 +121,10 @@
 		"current": 0, //当前激活的模式(list 的索引项)
 		"list": [{
 				"name": "首页", //模式名称
-				"path": "pages/index/index", //启动页面
+				"path": "merchant/index/index", //启动页面
 				"query": "" //启动参数
 			}
 		]
 	}
-
+	
 }

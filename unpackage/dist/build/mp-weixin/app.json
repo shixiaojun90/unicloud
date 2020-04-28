@@ -16,7 +16,12 @@
     "pages/zxzx/report",
     "pages/users/index",
     "pages/users/rztqq",
-    "pages/component/fenxiang"
+    "pages/users/zzzr",
+    "pages/users/glxq",
+    "pages/users/ddyx",
+    "pages/users/scfw",
+    "pages/users/gzxq",
+    "merchant/index/index"
   ],
   "subPackages": [],
   "window": {
@@ -25,6 +30,7 @@
     "navigationStyle": "custom",
     "navigationBarTextStyle": "white"
   },
+  "permission": {},
   "usingComponents": {
     "cu-custom": "/colorui/components/cu-custom",
     "drag-button": "/colorui/components/drag-button",

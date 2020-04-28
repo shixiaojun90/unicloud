@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fwsc/list",
+    "pages/fwsc/show",
+    "pages/fwsc/order_yx",
+    "pages/fwsc/comment",
+    "pages/xqzx/list",
+    "pages/xqzx/show",
+    "pages/xqzx/fwyx",
+    "pages/xqzx/archives",
+    "pages/xqzx/release",
+    "pages/xqzx/submit",
+    "pages/zxzx/list",
+    "pages/zxzx/show",
+    "pages/zxzx/report",
+    "pages/users/index",
+    "pages/users/rztqq",
+    "pages/component/fenxiang"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0081ff",
+    "navigationBarTitleText": "小程序",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "news",
+  "compilerVersion": "2.6.5",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom",
+    "drag-button": "/colorui/components/drag-button",
+    "fen-xiang": "/colorui/components/fen-xiang",
+    "myeditor": "/colorui/editor/editor"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "fen-xiang": "/colorui/components/fen-xiang"
+  },
+  "component": true
+}
