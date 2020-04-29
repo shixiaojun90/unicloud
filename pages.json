@@ -102,6 +102,15 @@
 		{
 			"path": "merchant/index/index",
 			"style": {}
+		},
+		
+		{
+			"path": "merchant/shzx/index",
+			"style": {}
+		},
+		{
+			"path": "merchant/czy/list",
+			"style": {}
 		}
 		
 	],

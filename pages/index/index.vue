@@ -99,7 +99,7 @@
 				<view class="cuIcon-my">
 					<view class="cu-tag badge"></view>
 				</view>
-				雇主端
+				商户端
 			</view>
 		</view>
 		<!-- 底部结束 -->

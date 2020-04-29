@@ -79,19 +79,12 @@
 		<!-- 底部开始 -->
 		<view class="cu-bar tabbar bg-white">
 			<view class="action text-green">
-				<view class="cuIcon-homefill"></view> 首页
+				<view class="cuIcon-homefill"></view> 管理
 			</view>
-			<view class="action text-gray" @tap="toChild" :data-url="'/pages/index/index'">
-				<view class="cuIcon-my">
-					<view class="cu-tag badge"></view>
-				</view>
-				雇主端
-			</view>
-			<view class="action text-gray" @tap="toChild" :data-url="'/pages/users/index'">
-				<view class="cuIcon-my">
-					<view class="cu-tag badge"></view>
-				</view>
-				我的
+			
+			<view class="action text-gray" @tap="toChild" :data-url="'/merchant/shzx/index'">
+				<view class="cuIcon-my"></view>
+				商户
 			</view>
 		</view>
 		<!-- 底部结束 -->
@@ -212,7 +205,7 @@
 		border-radius: 10rpx;
 		border-bottom: 0.5px solid #ddd;
 		display: block;
-		height: 680rpx;
+		height: 615rpx;
 		margin-top: 20rpx;
 	}
 	

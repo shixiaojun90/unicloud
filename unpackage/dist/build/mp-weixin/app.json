@@ -21,7 +21,9 @@
     "pages/users/ddyx",
     "pages/users/scfw",
     "pages/users/gzxq",
-    "merchant/index/index"
+    "merchant/index/index",
+    "merchant/shzx/index",
+    "merchant/czy/list"
   ],
   "subPackages": [],
   "window": {
